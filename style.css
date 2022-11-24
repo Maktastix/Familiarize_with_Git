@@ -6,6 +6,10 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+html{
+    font-size: 125%;
+}
+
 body{
     background-color: maroon;
 }
@@ -13,7 +17,7 @@ body{
 header{
     background-color: palegoldenrod;
     color: lightgreen;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 main{
@@ -23,4 +27,17 @@ main{
 footer{
     font-size: 1rem;
     text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+section h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+section p{
+    font-size: 1rem;
 }
