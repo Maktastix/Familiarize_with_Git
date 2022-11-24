@@ -9,9 +9,14 @@ html { box-sizing: border-box;}
 header{
     background-color: palegoldenrod;
     color: lightgreen;
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
 main{
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
 }
